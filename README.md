@@ -89,11 +89,28 @@ F7 46：最后修改文件日期
 
 ## WEB Web漏洞
 
+### PHP伪协议
+
+具体题目：[[极客大挑战 2019]Secret File 1](https://buuoj.cn/challenges#[%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98%202019]Secret%20File)
+
+经验一：看到flag.php应该联想到php伪协议，读取文件源码：
+```
+?file=php://filter/read=convert.base64-encode/resource=flag.php
+```
+
+参考：[PHP伪协议总结](https://segmentfault.com/a/1190000018991087)
+
 ## STEGA 隐写术
 
 
 
 ## 工具
+
+### SqlMap
+
+### OWASP ZAP
+
+### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
 
