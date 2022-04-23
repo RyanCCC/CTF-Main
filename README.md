@@ -82,6 +82,9 @@ F7 46：最后修改文件日期
 且压缩源文件目录区的全局方式位标记应当为09 00
 ```
 
+![image](https://user-images.githubusercontent.com/27406337/164894593-e537dd40-83ee-4a4f-9c34-747c40cac937.png)
+
+
 
 ## PWN 攻破、取得权限
 
