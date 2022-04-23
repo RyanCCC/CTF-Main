@@ -98,6 +98,9 @@ F7 46：最后修改文件日期
 ?file=php://filter/read=convert.base64-encode/resource=flag.php
 ```
 
+TODO:
+- [ ] 将下面参考链接搬过来
+
 参考：[PHP伪协议总结](https://segmentfault.com/a/1190000018991087)
 
 ## STEGA 隐写术
