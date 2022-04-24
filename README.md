@@ -238,4 +238,5 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 ## 博客
 1. [推荐：配枪的朱丽叶](https://shawroot.hatenablog.com/archive/category/rsa)
+2. [RSA题目全解](https://blog.csdn.net/mikecoke/article/details/105967809)
 
