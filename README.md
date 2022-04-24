@@ -236,3 +236,6 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
 
+## 博客
+1. [推荐：配枪的朱丽叶](https://shawroot.hatenablog.com/archive/category/rsa)
+
