@@ -92,6 +92,12 @@ F7 46：最后修改文件日期
 
 ## WEB Web漏洞
 
+关于Web的敏感文件有：
+1. robots.txt文件是一种叫做robots的协议。其文件常在网站根目录下。告诉网络爬虫，哪些文件或者文件夹可以被网络爬虫获取。哪些文件不可以被网络爬虫获取。
+2. readme.md是一种以MarkeDown格式书写的文件。通常记录一些CMS版本的信息。部分提供其CMS的GitHub地址。
+3. www.zip/rar/tar.gz 是一种压缩包格式的文件。
+4. index.php或者index.php~
+
 ### PHP伪协议
 
 具体题目：[[极客大挑战 2019]Secret File 1](https://buuoj.cn/challenges#[%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98%202019]Secret%20File)
