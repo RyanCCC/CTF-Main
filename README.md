@@ -238,6 +238,16 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 ### Burp Suite
 
+### Stegotools
+
+作用：查看图像的隐写情况。
+
+使用：在tools下运行```jar ./Stegsolve.jar```命令即可。
+
+### GitHack
+
+详情请见·```Githack```文件夹下的```README.md```
+
 ### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
