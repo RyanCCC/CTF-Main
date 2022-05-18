@@ -299,3 +299,4 @@ python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/i
 3. [web渗透实战系列(top40)](https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247507680&idx=1&sn=000501c787decc35d1cc971abe397ead&chksm=ce647479f913fd6f2cf30b54726b723a5c9a0d6db5e9ce997c1b51b223a2396ba78da8b10246&scene=18#wechat_redirect)
 4. [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
 5. Hacking黑白红公众号的文章
+6. [常见Webshell工具及特征分析](https://mp.weixin.qq.com/s/QYKA27-fNN15vDHpzlS0Fg)
