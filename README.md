@@ -238,6 +238,8 @@ http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip
 
 ### Burp Suite
 
+破解教程：http://www.52pjb.net/xiazai/36163.html#xzdz
+
 ### Stegotools
 
 作用：查看图像的隐写情况。
