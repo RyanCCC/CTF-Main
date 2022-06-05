@@ -1,16 +1,18 @@
 # CTF
 
-## [Crypto 密码学](./doc/cryptography.md)
+## 内容
 
-## [PWN 攻破、取得权限](./doc/PWN.md)
+- [x] [Crypto 密码学](./doc/cryptography.md)
 
-## [Reverse 逆向](./doc/Reverse.md)
+- [x] [PWN 攻破、取得权限](./doc/PWN.md)
 
-## [WEB Web漏洞](./doc/web.md)
+- [x] [Reverse 逆向](./doc/Reverse.md)
 
-## [STEGA 隐写术](/doc/stega.md)
+- [x] [WEB Web漏洞](./doc/web.md)
 
-## [工具](/doc/tools.md)
+- [x] [STEGA 隐写术](/doc/stega.md)
+
+- [x] [工具](/doc/tools.md)
 
 
 ## 学习路线
@@ -38,3 +40,8 @@
 4. [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
 5. Hacking黑白红公众号的文章
 6. [常见Webshell工具及特征分析](https://mp.weixin.qq.com/s/QYKA27-fNN15vDHpzlS0Fg)
+
+## 练习网站
+
+1. [BUUCTF在线评测](https://buuoj.cn/)
+2. [CTF大本营](https://www.ichunqiu.com/competition)
