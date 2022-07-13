@@ -431,3 +431,12 @@ insert,delete,update 主要是用到盲注和报错注入，此类注入点不�
 ?id=1' and 1=(select 1/(select top 1 name from sys.databases where name not in (select top 1 name from sys.databases))--
 ```
 
+## XFF注入
+
+X-Forwarded-For：简称XFF头，代表了HTTP的请求端真实的IP。它被认为是客户端通过HTTP代理或者负载均衡器连接到web服务端获取源ip地址的一个标准（通常一些网站的防注入功能会记录请求端真实IP地址并写入数据库或某文件[通过修改XXF头可以实现伪造IP]）。如果看到有提示关于IP，第一时间考虑是不是XFF注入。XFF注入原理是通过修改X-Forwarded-for头对带入系统的dns进行sql注入，达到欺骗服务器执行恶意的SQL命令的效果，从而可以得到网站的数据库内容。
+
+输入什么显示什么可以确定是SSTI（模板注入）
+
+关于SSTI可以参考：https://xz.aliyun.com/t/7746
+
+同时记住该命令：`X-Forwarded-for：{{system('ls')}}`举一反三。
