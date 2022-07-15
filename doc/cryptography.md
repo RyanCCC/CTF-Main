@@ -81,3 +81,8 @@ F7 46：最后修改文件日期
 ```
 
 ![image](https://user-images.githubusercontent.com/27406337/164894593-e537dd40-83ee-4a4f-9c34-747c40cac937.png)
+
+
+手机九宫格解码：
+
+![image](https://user-images.githubusercontent.com/27406337/179184599-3cb0e915-0029-45cf-a2d2-315b712e55ca.png)
