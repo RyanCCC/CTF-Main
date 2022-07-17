@@ -42,6 +42,11 @@ python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/i
 
 最后得到```flag```。
 
+
+### AZPR爆破工具
+
+### BinWalk
+
 ### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
