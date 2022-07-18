@@ -47,6 +47,12 @@ python sqlmap.py http://b1a4b711-121f-431c-a658-19db3107b04c.node4.buuoj.cn:81/i
 
 ### BinWalk
 
+### RoutePassView
+
+题目：[荷兰宽带数据泄露问题](https://buuoj.cn/challenges#%E8%8D%B7%E5%85%B0%E5%AE%BD%E5%B8%A6%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)
+
+RouterPassView是一个找回路由器密码的工具。大多数现代路由器允许备份到一个文件路由器的配置，然后从文件中恢复配置时的需要。路由器的备份文件通常包含了像ISP的用户名重要数据/密码，路由器的登录密码，无线网络的关键。如果失去了这些密码1 /钥匙，但仍然有路由器配置的备份文件，RouterPassView可以帮助你从你的路由器恢复您丢失密码的文件。
+
 ### 其他
 
 1. F5隐写工具使用：https://zhuanlan.zhihu.com/p/480561261
