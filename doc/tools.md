@@ -13,7 +13,7 @@
 
 作用：查看图像的隐写情况。
 
-使用：在tools下运行```jar ./Stegsolve.jar```命令即可。
+使用：在tools下运行```java -jar ./Stegsolve.jar```命令即可。
 
 ### GitHack
 
