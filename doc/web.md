@@ -435,3 +435,7 @@ X-Forwarded-For：简称XFF头，代表了HTTP的请求端真实的IP。它被�
 关于SSTI可以参考：https://xz.aliyun.com/t/7746
 
 同时记住该命令：`X-Forwarded-for：{{system('ls')}}`举一反三。
+
+### 确定注入
+
+![image](https://user-images.githubusercontent.com/27406337/179891728-2a7ba03b-1cec-4094-8611-70d76e85642a.png)
