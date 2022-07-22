@@ -29,7 +29,7 @@
 ```
 http://127.0.0.1/include.php?file=file://E:\phpStudy\PHPTutorial\WWW\phpinfo.txt
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958344-118408cf-3ecf-409b-a9e3-0de13e81ad04.png)
+![image](../src/web/164958344-118408cf-3ecf-409b-a9e3-0de13e81ad04.png)
 
 2. 文件相对路径和文件名
 
@@ -37,7 +37,7 @@ http://127.0.0.1/include.php?file=file://E:\phpStudy\PHPTutorial\WWW\phpinfo.txt
 http://127.0.0.1/include.php?file=./phpinfo.txt
 ```
 
-![image](https://user-images.githubusercontent.com/27406337/164958372-33d4b647-0a55-4a83-a501-a64e09be9ac5.png)
+![image](../src/web/164958372-33d4b647-0a55-4a83-a501-a64e09be9ac5.png)
 
 3. http：//网络路径和文件名
 
@@ -49,7 +49,7 @@ http://127.0.0.1/include.php?file=http://127.0.0.1/phpinfo.txt
 
 php:// 访问各个输入/输出流（I/O streams），在CTF中经常使用的是php://filter和php://input，php://filter用于读取源码，php://input用于执行php代码。
 
-![image](https://user-images.githubusercontent.com/27406337/164958421-551240a5-a32d-4ba0-9647-b49249d7b652.png)
+![image](../src/web/164958421-551240a5-a32d-4ba0-9647-b49249d7b652.png)
 
 - php://filter参数详解
 
@@ -62,11 +62,11 @@ php:// 访问各个输入/输出流（I/O streams），在CTF中经常使用的�
 
 - 可用过滤器列表
 
-![image](https://user-images.githubusercontent.com/27406337/164958515-4a04a3bc-af3e-49a9-9c95-846a42ddcd3b.png)
+![image](../src/web/164958515-4a04a3bc-af3e-49a9-9c95-846a42ddcd3b.png)
 
-![image](https://user-images.githubusercontent.com/27406337/164958521-b3afecca-fc6a-4713-a62e-e794b952389f.png)
+![image](../src/web/164958521-b3afecca-fc6a-4713-a62e-e794b952389f.png)
 
-![image](https://user-images.githubusercontent.com/27406337/164958525-bef470eb-29cc-47da-a681-ae339bf51eb8.png)
+![image](../src/web/164958525-bef470eb-29cc-47da-a681-ae339bf51eb8.png)
 
 
 示例：
@@ -75,11 +75,11 @@ php:// 访问各个输入/输出流（I/O streams），在CTF中经常使用的�
 ```
 http://127.0.0.1/include.php?file=php://filter/read=convert.base64-encode/resource=phpinfo.php
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958549-0cf1d547-7d4c-440b-9b89-0331421b0a28.png)
+![image](../src/web/164958549-0cf1d547-7d4c-440b-9b89-0331421b0a28.png)
 
 2. php://input + [POST DATA]执行php代码
 
-![image](https://user-images.githubusercontent.com/27406337/164958567-e44b6312-a113-45e4-99b4-f37e51d22d50.png)
+![image](../src/web/164958567-e44b6312-a113-45e4-99b4-f37e51d22d50.png)
 
 
 ### zip:// & bzip2:// & zlib:// 协议
@@ -91,14 +91,14 @@ zip:// & bzip2:// & zlib:// 均属于压缩流，可以访问压缩文件中的�
 ```
 http://127.0.0.1/include.php?file=zip://E:\phpStudy\PHPTutorial\WWW\phpinfo.jpg%23phpinfo.txt
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958598-225defff-d965-4635-9d89-41ce0ea99368.png)
+![image](../src/web/164958598-225defff-d965-4635-9d89-41ce0ea99368.png)
 
 2. compress.bzip2://file.bz2
 压缩 phpinfo.txt 为 phpinfo.bz2 并上传（同样支持任意后缀名）
 ```
 http://127.0.0.1/include.php?file=compress.bzip2://E:\phpStudy\PHPTutorial\WWW\phpinfo.bz2
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958616-3a68cc6e-0d0a-49ac-90dc-d62b27bac2c5.png)
+![image](../src/web/164958616-3a68cc6e-0d0a-49ac-90dc-d62b27bac2c5.png)
 
 3. compress.zlib://file.gz
 压缩 phpinfo.txt 为 phpinfo.gz 并上传（同样支持任意后缀名）
@@ -106,7 +106,7 @@ http://127.0.0.1/include.php?file=compress.bzip2://E:\phpStudy\PHPTutorial\WWW\p
 ```
 http://127.0.0.1/include.php?file=compress.zlib://E:\phpStudy\PHPTutorial\WWW\phpinfo.gz
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958634-5e1c0d25-1fdf-4365-b397-4d681478eef8.png)
+![image](../src/web/164958634-5e1c0d25-1fdf-4365-b397-4d681478eef8.png)
 
 
 ### data:// 协议
@@ -115,21 +115,21 @@ http://127.0.0.1/include.php?file=compress.zlib://E:\phpStudy\PHPTutorial\WWW\ph
 ```
 http://127.0.0.1/include.php?file=data://text/plain,<?php%20phpinfo();?>
 ```
-![image](https://user-images.githubusercontent.com/27406337/164958676-eff4ed97-11d3-4ae4-9b6c-e1312cc2049c.png)
+![image](../src/web/164958676-eff4ed97-11d3-4ae4-9b6c-e1312cc2049c.png)
 
 2. data://text/plain;base64,
 ```
 http://127.0.0.1/include.php?file=data://text/plain;base64,PD9waHAgcGhwaW5mbygpOz8%2b
 ```
 
-![image](https://user-images.githubusercontent.com/27406337/164958688-3ee35831-d69e-4a93-9d36-75004b68eb60.png)
+![image](../src/web/164958688-3ee35831-d69e-4a93-9d36-75004b68eb60.png)
 
 3. http:// & https:// 协议
 ```
 http://127.0.0.1/include.php?file=http://127.0.0.1/phpinfo.txt
 ```
 
-![image](https://user-images.githubusercontent.com/27406337/164958699-f71aec6e-6a94-4875-8bb0-d6d2777afa4e.png)
+![image](../src/web/164958699-f71aec6e-6a94-4875-8bb0-d6d2777afa4e.png)
 
 ### phar:// 协议
 
@@ -137,7 +137,7 @@ http://127.0.0.1/include.php?file=http://127.0.0.1/phpinfo.txt
 http://127.0.0.1/include.php?file=phar://E:/phpStudy/PHPTutorial/WWW/phpinfo.zip/phpinfo.txt
 ```
 
-![image](https://user-images.githubusercontent.com/27406337/164958709-ef7ff286-01b0-48ef-884f-f628b1c249bf.png)
+![image](../src/web/164958709-ef7ff286-01b0-48ef-884f-f628b1c249bf.png)
 
 
 参考：[PHP伪协议总结](https://segmentfault.com/a/1190000018991087)
@@ -205,13 +205,13 @@ ORDER BY 语句用于根据指定的列对结果集进行排序，当排序的�
 
 当用`order by` 函数猜解出数据库列名后，我们就可以使用union函数进行注入了,SQL语法为`union select 1,2,3,4,....n  --+ `。因为我们通过`order by`猜解出有X列，那我们就可以通过select查询X列，通过页面报错回显位，再进行payload构造。我们还是接着以上靶场为例，因为我们知道了该数据库有3列数据，那我们就可以构造SQL语句` 'union select 1,2,3--+`。
 
-![image](https://user-images.githubusercontent.com/27406337/178131107-bf64a40c-18be-4d76-9be8-bf2b8e62aff9.png)
+![image](../src/web/178131107-bf64a40c-18be-4d76-9be8-bf2b8e62aff9.png)
 
 - 报错显示位信息查询
 
 `union select 1,payload,3,...n --+`：通过构造payload得到数据库显示位，那么就可以获取我们想要的信息了，上面我们得到了显示位为2，3那我们只要在select 后面的2，3位置构造payload即可，例如我们想要获取数据库版本信息和数据库名那我们可以通过SQL语句 `'union select 1,version(),database()--+`进行注入查询。
 
-![image](https://user-images.githubusercontent.com/27406337/178131136-1e756719-0804-4c5f-8857-96043d89b92f.png)
+![image](../src/web/178131136-1e756719-0804-4c5f-8857-96043d89b92f.png)
 
 
 一些常见的数据信息收集如：
@@ -438,4 +438,13 @@ X-Forwarded-For：简称XFF头，代表了HTTP的请求端真实的IP。它被�
 
 ### 确定注入
 
-![image](https://user-images.githubusercontent.com/27406337/179891728-2a7ba03b-1cec-4094-8611-70d76e85642a.png)
+![image](../src/web/179891728-2a7ba03b-1cec-4094-8611-70d76e85642a.png)
+
+
+
+## 总结
+
+### [极客大挑战 2019]Http
+
+参考链接：https://buuoj.cn/challenges#[%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98%202019]Http
+

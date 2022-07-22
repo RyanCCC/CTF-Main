@@ -80,15 +80,15 @@ F7 46：最后修改文件日期
 且压缩源文件目录区的全局方式位标记应当为09 00
 ```
 
-![image](https://user-images.githubusercontent.com/27406337/164894593-e537dd40-83ee-4a4f-9c34-747c40cac937.png)
+![image](../src/cryptography/164894593-e537dd40-83ee-4a4f-9c34-747c40cac937.png)
 
 
 ### 手机九宫格解码：
 
-![image](https://user-images.githubusercontent.com/27406337/179184599-3cb0e915-0029-45cf-a2d2-315b712e55ca.png)
+![image](../src/cryptography/179184599-3cb0e915-0029-45cf-a2d2-315b712e55ca.png)
 
 
 ### 猪圈密码
 
-![image](https://user-images.githubusercontent.com/27406337/179659502-8c19d41a-00c2-4c46-9c8f-184b8890f26b.png)
+![image](../src/cryptography/179659502-8c19d41a-00c2-4c46-9c8f-184b8890f26b.png)
 
